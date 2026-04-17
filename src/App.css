@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  color: #eaeaea;
+  font-family: "Courier New", monospace;
+
+  background-image: url("/images/bg-intro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  border-inline: hidden;
+}
+
+.app {
+  width: 100%;
+  max-width: 720px;
+  background: rgba(18, 18, 18, 0.95);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow:
+    0 0 30px rgba(159, 255, 196, 0.08),
+    0 0 80px rgba(0, 0, 0, 0.35);
+
+    overflow: hidden;
+}
+
+h1 {
+  margin: 0 0 1.5rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9fffc4;
+}
+
+p {
+  margin: 0 0 1rem;
+  line-height: 1.75;
+  color: #dddddd;
+}
+
+button {
+  display: block;
+  width: fit-content;
+  margin-top: 0.8rem;
+
+  background: none;
+  border: none;
+  padding: 0;
+
+  color: #9fffc4;
+  font: inherit;
+  text-align: left;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
