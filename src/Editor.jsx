@@ -2,10 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 export default function Editor() {
-    // const [storyData, setStoryData] = useState(story);
-    // const [selectedId, setSelectedId] = useState("1");
-    // const currentScene = storyData.find((s) => s.id === selectedId);
-    // const currentIndex = storyData.findIndex((s) => s.id === selectedId);
     const [storyData, setStoryData] = useState([]);
     const [selectedId, setSelectedId] = useState("1");
     const [isLoading, setIsLoading] = useState(true);
@@ -28,7 +24,8 @@ export default function Editor() {
                     setSelectedId(data[0].id);
                 }
             } catch (err) {
-                console.error("Could not load story data.");
+                console.error(err);
+                setError("Could not load story data.");
             } finally {
                 setIsLoading(false);
             }
@@ -79,44 +76,25 @@ export default function Editor() {
         setStoryData(updated);
     };
 
-    // const updateParagraph = (index, value) => {
-    //     const updated = storyData.map((scene) => {
-    //         if (scene.id !== selectedId) return scene;
+    const saveStory = async () => {
+        try {
+            const response = await fetch("/api/story", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(storyData),
+            });
 
-    //         const newContent = [...scene.content];
-    //         newContent[index] = { ...newContent[index], text: value };
+            if (!response.ok) {
+                throw new Error("Failed to save story");
+            }
 
-    //         return { ...scene, content: newContent };
-    //     });
+            alert("Story saved successfully!");
+        } catch (err) {
+            console.error("Could not save story data.");
+            alert("Failed to save story.");
+        }
+    };
 
-    //     setStoryData(updated);
-    // };
-
-    // const deleteParagraph = (index) => {
-    //     const updated = storyData.map((scene) => {
-    //         if (scene.id !== selectedId) return scene;
-
-    //         const newContent = [...scene.content];
-    //         newContent.splice(index, 1);
-
-    //         return { ...scene, content: newContent };
-    //     });
-
-    //     setStoryData(updated);
-    // };
-
-    // const addParagraph = () => {
-    //     const updated = storyData.map((scene) => {
-    //         if (scene.id !== selectedId) return scene;
-
-    //         return {
-    //             ...scene,
-    //             content: [...scene.content, { type: "paragraph", text: "" }],
-    //         };
-    //     });
-
-    //     setStoryData(updated);
-    // };
 
     const goNext = () => {
         if (currentIndex < storyData.length - 1) {
@@ -217,6 +195,10 @@ export default function Editor() {
                     disabled={currentIndex === storyData.length - 1}
                 >
                     Next →
+                </button>
+
+                <button onClick={saveStory} className="editor-save-btn">
+                    Save Story
                 </button>
             </div>
         </div>
