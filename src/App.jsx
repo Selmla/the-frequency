@@ -6,11 +6,16 @@ import "./App.css";
 import Editor from "./Editor";
 
 export default function App() {
+  const isEditorEnabled = import.meta.env.VITE_ENABLE_EDITOR === "true";
   const [currentId, setCurrentId] = useState("1");
   const path = window.location.pathname;
 
-  if (path === "/story-ui") {
+  if (path === "/story-ui" && isEditorEnabled) {
     return <Editor />;
+  }
+
+  if (path === "/story-ui" && !isEditorEnabled) {
+    return <p>Not found</p>;
   }
 
   const currentScene = story.find(
