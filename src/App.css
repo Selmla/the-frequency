@@ -17,7 +17,7 @@ body {
 
 .app {
   width: min(680px, 78%);
-  background: rgba(245, 240, 225, 0.40); /* mer transparent */
+  background: rgba(245, 240, 225, 0.50); /* mer transparent */
   color: #2b2b2b;
 
 
