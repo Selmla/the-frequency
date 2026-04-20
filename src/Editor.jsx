@@ -1,10 +1,41 @@
-import { useState } from "react";
-import story from "./story.json";
+import { useEffect, useState } from "react";
 import "./App.css";
 
 export default function Editor() {
-    const [storyData, setStoryData] = useState(story);
+    // const [storyData, setStoryData] = useState(story);
+    // const [selectedId, setSelectedId] = useState("1");
+    // const currentScene = storyData.find((s) => s.id === selectedId);
+    // const currentIndex = storyData.findIndex((s) => s.id === selectedId);
+    const [storyData, setStoryData] = useState([]);
     const [selectedId, setSelectedId] = useState("1");
+    const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState("");
+
+    useEffect(() => {
+        const loadStory = async () => {
+            try {
+                setIsLoading(true);
+                setError("");
+                const response = await fetch("/api/story");
+                if (!response.ok) {
+                    throw new Error("Failed to load story");
+                }
+
+                const data = await response.json();
+                setStoryData(data);
+
+                if (data.length > 0) {
+                    setSelectedId(data[0].id);
+                }
+            } catch (err) {
+                console.error("Could not load story data.");
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        loadStory();
+    }, []);
 
     const currentScene = storyData.find((s) => s.id === selectedId);
     const currentIndex = storyData.findIndex((s) => s.id === selectedId);
@@ -48,6 +79,45 @@ export default function Editor() {
         setStoryData(updated);
     };
 
+    // const updateParagraph = (index, value) => {
+    //     const updated = storyData.map((scene) => {
+    //         if (scene.id !== selectedId) return scene;
+
+    //         const newContent = [...scene.content];
+    //         newContent[index] = { ...newContent[index], text: value };
+
+    //         return { ...scene, content: newContent };
+    //     });
+
+    //     setStoryData(updated);
+    // };
+
+    // const deleteParagraph = (index) => {
+    //     const updated = storyData.map((scene) => {
+    //         if (scene.id !== selectedId) return scene;
+
+    //         const newContent = [...scene.content];
+    //         newContent.splice(index, 1);
+
+    //         return { ...scene, content: newContent };
+    //     });
+
+    //     setStoryData(updated);
+    // };
+
+    // const addParagraph = () => {
+    //     const updated = storyData.map((scene) => {
+    //         if (scene.id !== selectedId) return scene;
+
+    //         return {
+    //             ...scene,
+    //             content: [...scene.content, { type: "paragraph", text: "" }],
+    //         };
+    //     });
+
+    //     setStoryData(updated);
+    // };
+
     const goNext = () => {
         if (currentIndex < storyData.length - 1) {
             setSelectedId(storyData[currentIndex + 1].id);
@@ -60,7 +130,9 @@ export default function Editor() {
         }
     };
 
-    if (!currentScene) return <p>No scene</p>;
+    if (isLoading) return <p>Loading story...</p>;
+    if (error) return <p>{error}</p>;
+    if (!currentScene) return <p>No scene found.</p>;
 
     return (
         <div className="editor">
