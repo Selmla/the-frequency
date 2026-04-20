@@ -3,6 +3,7 @@ import Scene from "./Scene";
 import Choices from "./Choices";
 import "./App.css";
 import Editor from "./Editor";
+import { getBackgroundImage } from "./storyConfig";
 
 export default function App() {
   const isEditorEnabled = import.meta.env.VITE_ENABLE_EDITOR === "true";
@@ -11,6 +12,7 @@ export default function App() {
   const [error, setError] = useState("");
   const [currentId, setCurrentId] = useState("1");
   const path = window.location.pathname;
+
 
   useEffect(() => {
     if (path === "/story-ui") {
@@ -63,30 +65,42 @@ export default function App() {
     return <p>Scene not found</p>;
   }
 
+  const bgImage = getBackgroundImage(currentScene?.bg);
+
   const isEnding =
     !currentScene.choices ||
     currentScene.choices.every(c => !c.next); // kolla om det inte finns några val eller om alla val inte leder någonstans
 
   if (isEnding) {
     return (
-      <div className="app">
-        <Scene scene={currentScene} />
-        <h1>The End</h1>
-        <button onClick={() => setCurrentId("1")}>Start over</button>
+      <div
+        className="app-shell"
+        style={{ backgroundImage: `url(${bgImage})` }}
+      >
+        <div className="app">
+          <Scene scene={currentScene} />
+          <h1>The End</h1>
+          <button onClick={() => setCurrentId("1")}>Start over</button>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="app">
-      <Scene scene={currentScene} />
-      <Choices
-        choices={currentScene.choices}
-        onChoice={(next) => {
-          if (!next) return;
-          setCurrentId(next);
-        }}
-      />
+    <div
+      className="app-shell"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
+      <div className="app">
+        <Scene scene={currentScene} />
+        <Choices
+          choices={currentScene.choices}
+          onChoice={(next) => {
+            if (!next) return;
+            setCurrentId(next);
+          }}
+        />
+      </div>
     </div>
   );
 }

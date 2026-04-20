@@ -69,7 +69,7 @@
     "id": "4",
     "name": "home",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
