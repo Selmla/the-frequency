@@ -1,5 +1,4 @@
-import { useState } from "react";
-import story from "./story.json";
+import { useEffect, useState } from "react";
 import Scene from "./Scene";
 import Choices from "./Choices";
 import "./App.css";
@@ -7,8 +6,40 @@ import Editor from "./Editor";
 
 export default function App() {
   const isEditorEnabled = import.meta.env.VITE_ENABLE_EDITOR === "true";
+  const [storyData, setStoryData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState("");
   const [currentId, setCurrentId] = useState("1");
   const path = window.location.pathname;
+
+  useEffect(() => {
+    if (path === "/story-ui") {
+      setIsLoading(false);
+      return;
+    }
+
+    const loadStory = async () => {
+      try {
+        setIsLoading(true);
+        setError("");
+
+        const response = await fetch("/api/story");
+        if (!response.ok) {
+          throw new Error("Failed to load story");
+        }
+
+        const data = await response.json();
+        setStoryData(data);
+      } catch (err) {
+        console.error(err);
+        setError("Could not load story data.");
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadStory();
+  }, [path]);
 
   if (path === "/story-ui" && isEditorEnabled) {
     return <Editor />;
@@ -18,9 +49,15 @@ export default function App() {
     return <p>Not found</p>;
   }
 
-  const currentScene = story.find(
-    (scene) => scene.id === currentId
-  );
+  if (isLoading) {
+    return <p>Loading story...</p>;
+  }
+
+  if (error) {
+    return <p>{error}</p>;
+  }
+
+  const currentScene = storyData?.find((scene) => scene.id === currentId);
 
   if (!currentScene) {
     return <p>Scene not found</p>;
