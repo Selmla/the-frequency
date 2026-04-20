@@ -106,16 +106,6 @@ button {
   background-color: beige;
 }
 
-/* .editor-select,
-.editor-search,
-.editor-textarea {
-  background: #2b2b2b;
-  color: #fff;
-  border: none;
-  padding: 0.5rem;
-  border-radius: 6px;
-} */
-
 .editor-select,
 .editor-search,
 .editor-textarea {
@@ -241,4 +231,34 @@ button {
 .editor-delete-btn,
 .editor-add-btn {
   margin-top: 0.4rem;
+}
+
+.editor-bg-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.editor-bg-row strong {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.editor-bg-label {
+  min-width: 90px;
+}
+
+.editor-bg-preview {
+  margin-bottom: 1.5rem;
+}
+
+.editor-bg-preview img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  justify-content: center;
 }

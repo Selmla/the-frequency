@@ -95,7 +95,7 @@
     "id": "5",
     "name": "background",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
@@ -113,7 +113,7 @@
     "id": "6",
     "name": "bang",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",

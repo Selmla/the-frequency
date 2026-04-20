@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import { BACKGROUNDS, DEFAULT_BG } from "./storyConfig";
 
 export default function Editor() {
-    const [storyData, setStoryData] = useState([]);
-    const [selectedId, setSelectedId] = useState("1");
+    const [storyData, setStoryData] = useState([]); // Start with empty array to avoid null checks
+    const [selectedId, setSelectedId] = useState("1"); // Default to "1" or first scene's id after loading
     const [isLoading, setIsLoading] = useState(true);
-    const [error, setError] = useState("");
+    const [error, setError] = useState(""); // For error messages
 
     useEffect(() => {
         const loadStory = async () => {
@@ -36,6 +37,16 @@ export default function Editor() {
 
     const currentScene = storyData.find((s) => s.id === selectedId);
     const currentIndex = storyData.findIndex((s) => s.id === selectedId);
+
+    const updateBackground = (newBg) => {
+        const updated = storyData.map((scene) => {
+            if (scene.id !== selectedId) return scene;
+
+            return { ...scene, bg: newBg };
+        });
+
+        setStoryData(updated);
+    };
 
     const updateParagraph = (index, value) => {
         const updated = storyData.map((scene) => {
@@ -144,6 +155,34 @@ export default function Editor() {
             <p>
                 <strong>Name:</strong> {currentScene.name}
             </p>
+
+            <div className="editor-bg-row">
+                <label className="editor-bg-label" htmlFor="bg-select">
+                    <strong>Background:</strong>
+                </label>
+
+                <select
+                    id="bg-select"
+                    className="editor-select"
+                    value={currentScene.bg || DEFAULT_BG}
+                    onChange={(e) => updateBackground(e.target.value)}
+                >
+                    {Object.entries(BACKGROUNDS).map(([bgId, bg]) => (
+                        <option key={bgId} value={bgId}>
+                            {bg.label}
+                        </option>
+                    ))}
+                </select>
+
+                <div className="editor-bg-preview">
+                    <img
+                        src={BACKGROUNDS[currentScene.bg || DEFAULT_BG]?.image}
+                        alt="Background preview"
+                    />
+                </div>
+
+
+            </div>
 
             {currentScene.content.map((item, index) => (
                 <div key={index} className="editor-paragraph">
