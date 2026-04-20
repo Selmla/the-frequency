@@ -3,10 +3,15 @@ import story from "./story.json";
 import Scene from "./Scene";
 import Choices from "./Choices";
 import "./App.css";
-
+import Editor from "./Editor";
 
 export default function App() {
-  const [currentId, setCurrentId] = useState("1"); // starta på scen 1
+  const [currentId, setCurrentId] = useState("1");
+  const path = window.location.pathname;
+
+  if (path === "/story-ui") {
+    return <Editor />;
+  }
 
   const currentScene = story.find(
     (scene) => scene.id === currentId
@@ -18,7 +23,7 @@ export default function App() {
 
   const isEnding =
     !currentScene.choices ||
-    currentScene.choices.every(c => !c.next);
+    currentScene.choices.every(c => !c.next); // kolla om det inte finns några val eller om alla val inte leder någonstans
 
   if (isEnding) {
     return (
@@ -36,11 +41,10 @@ export default function App() {
       <Choices
         choices={currentScene.choices}
         onChoice={(next) => {
-          if (!next) return; // gör inget om tom
+          if (!next) return;
           setCurrentId(next);
         }}
       />
     </div>
-
   );
 }
