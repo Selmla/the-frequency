@@ -15,16 +15,6 @@ body {
   min-height: 100vh;
 }
 
-/* .app {
-  width: min(680px, 78%);
-  background: rgba(10, 10, 12, 0.78);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 18px;
-  padding: 2.2rem 2.5rem;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
-  overflow: hidden;
-} */
-
 .app {
   width: min(680px, 78%);
   background: rgba(245, 240, 225, 0.20); /* mer transparent */
@@ -41,6 +31,8 @@ body {
   -webkit-backdrop-filter: blur(12px);
 
   overflow: hidden;
+
+  justify-content:  center;
 }
 
 .app-shell {
@@ -69,12 +61,6 @@ h1 {
   color: #9fffc4;
 }
 
-/* p {
-  margin: 0 0 1rem;
-  line-height: 1.75;
-  color: #dddddd;
-} */
-
 p {
   margin: 0 0 1rem;
   line-height: 1.8;
@@ -83,7 +69,7 @@ p {
 }
 
 button {
-  display: block;
+  display: inline-block;
   width: fit-content;
   margin-top: 0.8rem;
 
