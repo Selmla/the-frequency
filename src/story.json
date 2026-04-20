@@ -3,6 +3,7 @@
     "id": "1",
     "name": "intro",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -20,6 +21,7 @@
     "id": "2",
     "name": "the radio",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -45,6 +47,7 @@
     "id": "3",
     "name": "your radio",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -66,6 +69,7 @@
     "id": "4",
     "name": "home",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -91,6 +95,7 @@
     "id": "5",
     "name": "background",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -108,6 +113,7 @@
     "id": "6",
     "name": "bang",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -137,6 +143,7 @@
     "id": "7",
     "name": "first_contact",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -170,6 +177,7 @@
     "id": "8",
     "name": "start_the_conversation",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -215,6 +223,7 @@
     "id": "8.1",
     "name": "yes_the_truth",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -284,6 +293,7 @@
     "id": "8.11",
     "name": "yes_the_truth_pt2",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -329,6 +339,7 @@
     "id": "8.12",
     "name": "yes_the_truth_pt3",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -374,6 +385,7 @@
     "id": "8.2",
     "name": "no_a_lie",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -419,6 +431,7 @@
     "id": "8.2.1",
     "name": "no_a_lie_pt2",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -440,6 +453,7 @@
     "id": "8.2.2",
     "name": "no_a_lie_pt3",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -457,6 +471,7 @@
     "id": "8.2.3",
     "name": "no_a_lie_pt4",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -486,6 +501,7 @@
     "id": "8.2.4",
     "name": "no_a_lie_pt5",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -515,6 +531,7 @@
     "id": "8.2.5",
     "name": "no_a_lie_pt6",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -548,6 +565,7 @@
     "id": "9",
     "name": "lets_meet_up",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -581,6 +599,7 @@
     "id": "10",
     "name": "internal_conflict",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -606,6 +625,7 @@
     "id": "11",
     "name": "decision_to_meet",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -639,6 +659,7 @@
     "id": "12",
     "name": "before_departure_and_flashlight",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -664,6 +685,7 @@
     "id": "13",
     "name": "done_packing",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -689,6 +711,7 @@
     "id": "14",
     "name": "walk_along_the_main_road",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -710,6 +733,7 @@
     "id": "15",
     "name": "talk_about_the_past",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -747,6 +771,7 @@
     "id": "15.1",
     "name": "how_come_your_dad_was_interested",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -768,6 +793,7 @@
     "id": "15.2",
     "name": "you_can_read",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -801,6 +827,7 @@
     "id": "15.3",
     "name": "you_must_know_a_lot_about_it",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -826,6 +853,7 @@
     "id": "16",
     "name": "axels_dad",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -867,6 +895,7 @@
     "id": "16.1",
     "name": "fascinated_by_the_past",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -904,6 +933,7 @@
     "id": "16.2",
     "name": "read_about_it",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -941,6 +971,7 @@
     "id": "16.3",
     "name": "not_interested",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -978,6 +1009,7 @@
     "id": "17",
     "name": "Are you out yet?",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1019,6 +1051,7 @@
     "id": "18",
     "name": "camp",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1044,6 +1077,7 @@
     "id": "19",
     "name": "Camp2",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1077,6 +1111,7 @@
     "id": "20",
     "name": "Hike continues",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1102,6 +1137,7 @@
     "id": "20.1",
     "name": "West",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1123,6 +1159,7 @@
     "id": "20.2",
     "name": "east",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1144,6 +1181,7 @@
     "id": "20.3",
     "name": "north",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1169,6 +1207,7 @@
     "id": "21",
     "name": "going north",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1186,6 +1225,7 @@
     "id": "22",
     "name": "old camp",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1235,6 +1275,7 @@
     "id": "22.1",
     "name": "look around",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1256,6 +1297,7 @@
     "id": "22.2",
     "name": "dont look around",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1273,6 +1315,7 @@
     "id": "23",
     "name": "the_request",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1322,6 +1365,7 @@
     "id": "24",
     "name": "the request continued",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1359,6 +1403,7 @@
     "id": "25",
     "name": "go or not",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1400,6 +1445,7 @@
     "id": "26",
     "name": "ill_go",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1433,6 +1479,7 @@
     "id": "27",
     "name": "new_destination_hideout",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1466,6 +1513,7 @@
     "id": "28",
     "name": "entering_the_town",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1491,6 +1539,7 @@
     "id": "29",
     "name": "looking_around",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1516,6 +1565,7 @@
     "id": "30",
     "name": "see_stores",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1549,6 +1599,7 @@
     "id": "31",
     "name": "the_supermarket",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1574,6 +1625,7 @@
     "id": "32",
     "name": "the_electronic_store",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1599,6 +1651,7 @@
     "id": "33",
     "name": "straight_the_outdoor_store",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1624,6 +1677,7 @@
     "id": "34.1",
     "name": "enter_supermarket",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1641,6 +1695,7 @@
     "id": "34.1.2",
     "name": "looking_with_flashlight",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1690,6 +1745,7 @@
     "id": "34.1.3",
     "name": "dont_take_too_long",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1715,6 +1771,7 @@
     "id": "34.1.3.1",
     "name": "i_wont",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1736,6 +1793,7 @@
     "id": "34.1.3.2",
     "name": "dont_rush_me",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1757,6 +1815,7 @@
     "id": "34.1.4",
     "name": "how_did_you_meet",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1778,6 +1837,7 @@
     "id": "34.1.5",
     "name": "answer",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1799,6 +1859,7 @@
     "id": "34.1.6",
     "name": "sheila_memory",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1844,6 +1905,7 @@
     "id": "34.1.6.1",
     "name": "mother_figure",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1869,6 +1931,7 @@
     "id": "34.1.6.2",
     "name": "teacher_guardian",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1894,6 +1957,7 @@
     "id": "34.1.6.3",
     "name": "were_you_lovers",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1927,6 +1991,7 @@
     "id": "34.1.7",
     "name": "what_were_parents_like",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -1968,6 +2033,7 @@
     "id": "34.1.7.1",
     "name": "dad",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2009,6 +2075,7 @@
     "id": "34.1.7.2",
     "name": "mom",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2050,6 +2117,7 @@
     "id": "34.1.8",
     "name": "water",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2071,6 +2139,7 @@
     "id": "34.1.9",
     "name": "water_again",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2120,6 +2189,7 @@
     "id": "34.1.10",
     "name": "bear_one",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2153,6 +2223,7 @@
     "id": "34.1.11",
     "name": "bear_two",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2198,6 +2269,7 @@
     "id": "34.1.12",
     "name": "bear_attack",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2223,6 +2295,7 @@
     "id": "34.1.13",
     "name": "bear_leaves",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2264,6 +2337,7 @@
     "id": "34.1.14",
     "name": "after_bear",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2305,6 +2379,7 @@
     "id": "34.2",
     "name": "enter_electronic_store",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2346,6 +2421,7 @@
     "id": "34.2.1",
     "name": "looking_around_electronics",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2367,6 +2443,7 @@
     "id": "34.2.2",
     "name": "disappointing_loot",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2400,6 +2477,7 @@
     "id": "34.2.3",
     "name": "blushing",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2449,6 +2527,7 @@
     "id": "34.2.4",
     "name": "deeper_conversation",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2478,6 +2557,7 @@
     "id": "34.2.5",
     "name": "awkward_shift",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2507,6 +2587,7 @@
     "id": "34.2.6",
     "name": "the_bear_electronics",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2536,6 +2617,7 @@
     "id": "34.2.7",
     "name": "bear_chase",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2569,6 +2651,7 @@
     "id": "34.2.8",
     "name": "hiding",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2610,6 +2693,7 @@
     "id": "34.2.9",
     "name": "escape_electronics",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2627,6 +2711,7 @@
     "id": "34.2.10",
     "name": "after_bear_electronics",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2660,6 +2745,7 @@
     "id": "34.3",
     "name": "enter_outdoor_store",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2681,6 +2767,7 @@
     "id": "34.3.1",
     "name": "flashlight",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2718,6 +2805,7 @@
     "id": "34.3.2",
     "name": "resupply",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2759,6 +2847,7 @@
     "id": "34.3.3.1",
     "name": "sorry_not_rushing",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2796,6 +2885,7 @@
     "id": "34.3.4",
     "name": "how_did_you_meet_outdoor",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2817,6 +2907,7 @@
     "id": "34.3.5",
     "name": "sheila_story_outdoor",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2838,6 +2929,7 @@
     "id": "34.3.6",
     "name": "axel_talks_about_her",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2883,6 +2975,7 @@
     "id": "34.3.6.1",
     "name": "sheila_like_family",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2912,6 +3005,7 @@
     "id": "34.3.6.2",
     "name": "sheila_close_friend",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2933,6 +3027,7 @@
     "id": "34.3.6.3",
     "name": "sheila_not_romantic",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2958,6 +3053,7 @@
     "id": "34.3.7",
     "name": "axel_misses_his_father",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -2983,6 +3079,7 @@
     "id": "34.3.8",
     "name": "talk_about_parents",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3012,6 +3109,7 @@
     "id": "34.3.8.1",
     "name": "dad_memory",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3033,6 +3131,7 @@
     "id": "34.3.8.1.1",
     "name": "dad_memory_followup",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3066,6 +3165,7 @@
     "id": "34.3.8.2",
     "name": "mom_memory",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3087,6 +3187,7 @@
     "id": "34.3.8.2.1",
     "name": "mom_memory_followup",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3120,6 +3221,7 @@
     "id": "34.3.9",
     "name": "store_hub",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3153,6 +3255,7 @@
     "id": "34.3.9.1",
     "name": "weapons_intro",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3174,6 +3277,7 @@
     "id": "34.3.9.1.1",
     "name": "weapons_search",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3191,6 +3295,7 @@
     "id": "34.3.9.2",
     "name": "utilities_search",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3224,6 +3329,7 @@
     "id": "34.3.10",
     "name": "find_water",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3245,6 +3351,7 @@
     "id": "34.3.11",
     "name": "radio_checkin_bear",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3290,6 +3397,7 @@
     "id": "34.3.12",
     "name": "bear_encounter",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3331,6 +3439,7 @@
     "id": "34.3.13",
     "name": "bear_charges",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3360,6 +3469,7 @@
     "id": "34.3.14",
     "name": "bear_loses_interest",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3401,6 +3511,7 @@
     "id": "34.3.15",
     "name": "after_bear_escape",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3446,6 +3557,7 @@
     "id": "35",
     "name": "done_looting",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3491,6 +3603,7 @@
     "id": "36",
     "name": "exit_the_town",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3544,6 +3657,7 @@
     "id": "37",
     "name": "search_for_hideout",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3561,6 +3675,7 @@
     "id": "38",
     "name": "find_cabin",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3586,6 +3701,7 @@
     "id": "39",
     "name": "outside_cabin",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3615,6 +3731,7 @@
     "id": "39.1",
     "name": "listen_at_door",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3640,6 +3757,7 @@
     "id": "39.2",
     "name": "knock_on_door",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3673,6 +3791,7 @@
     "id": "39.3",
     "name": "open_cabin_door",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3702,6 +3821,7 @@
     "id": "40",
     "name": "discover_bodies",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3727,6 +3847,7 @@
     "id": "41",
     "name": "call_axel_after_discovery",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3768,6 +3889,7 @@
     "id": "42",
     "name": "axel_tells_you_to_go_back",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3805,6 +3927,7 @@
     "id": "43",
     "name": "decision_to_go_back",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3838,6 +3961,7 @@
     "id": "44",
     "name": "re_enter_cabin",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3879,6 +4003,7 @@
     "id": "45",
     "name": "search_for_silver_box",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3924,6 +4049,7 @@
     "id": "45.1",
     "name": "search_bookshelf",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3953,6 +4079,7 @@
     "id": "45.2",
     "name": "search_desk",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -3994,6 +4121,7 @@
     "id": "45.3",
     "name": "search_blanket",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4023,6 +4151,7 @@
     "id": "45.4",
     "name": "find_silver_box",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4052,6 +4181,7 @@
     "id": "45.5",
     "name": "search_shelves",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4089,6 +4219,7 @@
     "id": "46",
     "name": "on_the_way_out_symbol",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4122,6 +4253,7 @@
     "id": "47",
     "name": "note_overwhelmed",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4143,6 +4275,7 @@
     "id": "48",
     "name": "look_for_resting_place",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4184,6 +4317,7 @@
     "id": "49",
     "name": "after_camp_epiphany",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4209,6 +4343,7 @@
     "id": "50",
     "name": "inspect_silver_box",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4242,6 +4377,7 @@
     "id": "51",
     "name": "read_note",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4267,6 +4403,7 @@
     "id": "52",
     "name": "question_the_symbol",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4304,6 +4441,7 @@
     "id": "53",
     "name": "axel_deflects",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4333,6 +4471,7 @@
     "id": "54",
     "name": "keep_moving_towards_axel",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4358,6 +4497,7 @@
     "id": "55",
     "name": "walking_and_thinking",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4403,6 +4543,7 @@
     "id": "56",
     "name": "sunrise_reflection",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4456,6 +4597,7 @@
     "id": "56.1",
     "name": "ask_about_men",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4473,6 +4615,7 @@
     "id": "56.2",
     "name": "ask_about_symbol",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4494,6 +4637,7 @@
     "id": "56.3",
     "name": "ask_what_happened",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4523,6 +4667,7 @@
     "id": "57",
     "name": "question_about_key",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4552,6 +4697,7 @@
     "id": "57.1",
     "name": "ask_about_box",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4589,6 +4735,7 @@
     "id": "57.1.1",
     "name": "tell_axel_about_note",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4618,6 +4765,7 @@
     "id": "57.2",
     "name": "tell_axel_about_note_direct",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4639,6 +4787,7 @@
     "id": "58",
     "name": "realization_axel_lying",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4656,6 +4805,7 @@
     "id": "59",
     "name": "emotional_realization_destination",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4681,6 +4831,7 @@
     "id": "60",
     "name": "reaching_axel",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4706,6 +4857,7 @@
     "id": "60.1",
     "name": "confront_axel_direct",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4759,6 +4911,7 @@
     "id": "60.1.1",
     "name": "processing_axels_confession",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4788,6 +4941,7 @@
     "id": "60.2",
     "name": "confront_axel_with_evidence",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4829,6 +4983,7 @@
     "id": "61",
     "name": "choose_ending",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4850,6 +5005,7 @@
     "id": "61.1",
     "name": "ending_trust_axel",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4871,6 +5027,7 @@
     "id": "61.1.1",
     "name": "enter_compound_meet_people",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4896,6 +5053,7 @@
     "id": "61.1.2",
     "name": "meet_group_emotional",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4929,6 +5087,7 @@
     "id": "61.1.3",
     "name": "meet_axel_in_person",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -4954,6 +5113,7 @@
     "id": "61.1.4",
     "name": "ending_one_resolution",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -5014,6 +5174,7 @@
     "id": "61.2",
     "name": "ending_leave_axel",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -5035,6 +5196,7 @@
     "id": "61.2.1",
     "name": "alone_in_field",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
@@ -5060,6 +5222,7 @@
     "id": "61.2.2",
     "name": "ending_two_resolution",
     "type": "scene",
+    "bg": "intro",
     "content": [
       {
         "type": "paragraph",
