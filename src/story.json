@@ -33,7 +33,7 @@
       },
       {
         "type": "paragraph",
-        "text": "It’s in surprisingly good condition, and aside from a few scrapes and discoloration it seems like it should be working. The batteries however are completely busted, and no matter what you do it won’t turn on. You put the radio in your bag and start walking. If you remember right, there should be some working batteries at home."
+        "text": "It’s in surprisingly good condition, and aside from a few scrapes and discoloration it seems like it should be working. The batteries however are completely busted, and no matter what you do it won’t turn on. You put the radio in your bag and start walking. If you remember right, there should be some working batteries at"
       }
     ],
     "choices": [
@@ -129,12 +129,12 @@
       },
       {
         "type": "paragraph",
-        "text": "The bookshelf is a cluster of gizmos and “important” papers, but no batteries it seems. You turn to the kitchen area to turn of the blowtorch when you see something in the food rack"
+        "text": "The bookshelf is a cluster of gizmos and “important” papers, but no batteries it seems. You turn to the kitchen area to turn of the blowtorch when you see something in the "
       }
     ],
     "choices": [
       {
-        "text": "Continue",
+        "text": "food rack",
         "next": "7"
       }
     ]

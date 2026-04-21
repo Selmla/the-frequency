@@ -61,6 +61,19 @@ export default function Editor() {
         setStoryData(updated);
     };
 
+    const updateChoiceText = (index, value) => {
+        const updated = storyData.map((scene) => {
+            if (scene.id !== selectedId) return scene;
+
+            const newChoices = [...scene.choices];
+            newChoices[index] = { ...newChoices[index], text: value };
+
+            return { ...scene, choices: newChoices };
+        });
+
+        setStoryData(updated);
+    }
+
     const deleteParagraph = (index) => {
         const updated = storyData.map((scene) => {
             if (scene.id !== selectedId) return scene;
@@ -223,6 +236,21 @@ export default function Editor() {
                     </svg>
                 </button>
             </div>
+
+            <hr />
+
+            <h3>Choices</h3>
+
+            {currentScene.choices?.map((choice, index) => (
+                <div key={index} className="editor-choice-card">
+                    <input
+                        className="editor-input"
+                        type="text"
+                        value={choice.text}
+                        onChange={(e) => updateChoiceText(index, e.target.value)}
+                    />
+                </div>
+            ))}
 
             <div className="editor-nav">
                 <button onClick={goPrev} disabled={currentIndex === 0}>
