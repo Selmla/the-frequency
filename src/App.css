@@ -247,3 +247,13 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.15);
   justify-content: center;
 }
+
+.route-message {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  background: #0f1020;
+}

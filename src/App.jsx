@@ -48,7 +48,9 @@ export default function App() {
   }
 
   if (path === "/story-ui" && !isEditorEnabled) {
-    return <p>Not found</p>;
+    return <div className="route-message">
+      <p>Not found</p>
+    </div>;
   }
 
   if (isLoading) {
