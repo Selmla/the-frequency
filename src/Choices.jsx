@@ -1,4 +1,4 @@
-export default function Choises({ choices, onChoice }) {
+export default function Choices({ choices, onChoice }) {
 
     return (
         <>

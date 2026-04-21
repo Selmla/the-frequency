@@ -143,7 +143,7 @@
     "id": "7",
     "name": "first_contact",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
@@ -177,7 +177,7 @@
     "id": "8",
     "name": "start_the_conversation",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
@@ -189,11 +189,7 @@
       },
       {
         "type": "paragraph",
-        "text": "It’s the voice of a man. He sounds like someone your own age, maybe in his twenties."
-      },
-      {
-        "type": "paragraph",
-        "text": "Realizing you still haven’t said anything, you answer him."
+        "text": "It’s the voice of a man. He sounds like someone your own age, maybe in his twenties. \nRealizing you still haven’t said anything, you answer him."
       },
       {
         "type": "paragraph",
@@ -223,63 +219,19 @@
     "id": "8.1",
     "name": "yes_the_truth",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
-        "text": "- “I see…” He sounds disappointed. “Have you seen a woman where you are? In her 40s, short black hair?”"
+        "text": "- “I see…” He sounds disappointed. “Have you seen a woman where you are? In her 40s, short black hair?”\nYou don’t have to think long on that one."
       },
       {
         "type": "paragraph",
-        "text": "You don’t have to think long on that one."
+        "text": "- “Nope, nobody here. Just me. For a while now.”\n\n- “The radio you’re using, what does it look like?”\n\n- “It seems like a regular two way radio. It has a little bird painted on it.”\n\n- “That’s hers!”"
       },
       {
         "type": "paragraph",
-        "text": "- “Nope, nobody here. Just me. For a while now.”"
-      },
-      {
-        "type": "paragraph",
-        "text": "- “The radio you’re using, what does it look like?”"
-      },
-      {
-        "type": "paragraph",
-        "text": "- “It seems like a regular two way radio. It has a little bird painted on it.”"
-      },
-      {
-        "type": "paragraph",
-        "text": "- “That’s hers!”"
-      },
-      {
-        "type": "paragraph",
-        "text": "You hesitate a bit before continuing."
-      },
-      {
-        "type": "paragraph",
-        "text": "- “I, uhm… found it in a pile of scraps...”"
-      },
-      {
-        "type": "paragraph",
-        "text": "- “Oh...”"
-      },
-      {
-        "type": "paragraph",
-        "text": "Knowing full well what that probably means, you both sit in silence for a while."
-      },
-      {
-        "type": "paragraph",
-        "text": "- “I’m sorry”, you finally say."
-      },
-      {
-        "type": "paragraph",
-        "text": "- “It’s alright. I think I’ve known for a while, but I just wasn’t quite ready to give up, you know?”"
-      },
-      {
-        "type": "paragraph",
-        "text": "When he stops talking you feel a pit of worry in your stomach. Is the conversation over? Has he left? What should one say, at a time like this? Your eyes anxiously dart to Justin on the wall. He’d probably know what to say."
-      },
-      {
-        "type": "paragraph",
-        "text": "The silence is deafening. Without thinking, you blurt out"
+        "text": "You hesitate a bit before continuing.\n- “I, uhm… found it in a pile of scraps...”\n\nYou realize that it cant be good if you found it in a pile of scraps. He probably realizes too since the other end gets quiet for a while.\nThe silence is deafening. Without thinking, you blurt out"
       }
     ],
     "choices": [
@@ -293,39 +245,27 @@
     "id": "8.11",
     "name": "yes_the_truth_pt2",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
-        "text": "- “Yeah, I am. Hard to find people these days, you know? I can probably count the names of everyone I’ve ever known on my fingers”"
+        "text": "“Yeah. I’m alone. Hard to find people these days… I could probably count everyone I’ve ever known on my fingers.”\n\nHe sighs, then adds quietly, “I never asked your name.”"
       },
       {
         "type": "paragraph",
-        "text": "He sighs to himself before continuing."
+        "text": "You hesitate. You hadn’t even realized you never introduced yourself.\n\n“Abigail,” you say, a bit more curt than intended.\n"
       },
       {
         "type": "paragraph",
-        "text": "- “Speaking of which, I never asked your name”, he says quietly."
+        "text": "“Abigail, huh. Can I call you Abby?”"
       },
       {
         "type": "paragraph",
-        "text": "The question catches you off guard. You hadn’t even realized that you forgot to introduce yourself."
+        "text": "“…No.”"
       },
       {
         "type": "paragraph",
-        "text": "- “It’s Abigail”, you answer him, more curtly than planned."
-      },
-      {
-        "type": "paragraph",
-        "text": "- “Abigail, huh. Can I call you Abby?”"
-      },
-      {
-        "type": "paragraph",
-        "text": "- “...No.”"
-      },
-      {
-        "type": "paragraph",
-        "text": "Your prompt answers makes him laugh and it puts you both at more ease. Before you know it you both find yourselves pleasantly stuck in"
+        "text": "He laughs, and somehow the tension softens. Before long, you both find yourselves pleasantly stuck in"
       }
     ],
     "choices": [
@@ -339,39 +279,23 @@
     "id": "8.12",
     "name": "yes_the_truth_pt3",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
-        "text": "The two of you talk for an hour about nothing in particular. Scavenging finds, tricky generator problems, where you grew up. Like you, he seems to have lived alone for quite some time."
+        "text": "You end up talking for over an hour—about nothing and everything. Scavenging finds, broken generators, where you grew up. Like you, he’s been alone for a long time.\n\nYou remind yourself you know nothing about him… yet you can’t deny it—you’re enjoying this.\n\n“This is one of the best talks I’ve had in a while.” he says."
       },
       {
         "type": "paragraph",
-        "text": "You remind yourself that you know nothing about this man, but you can’t deny that you’re enjoying the small talk. You may not trust him yet, but you start feeling… comfortable."
+        "text": "“Well, it’s also the only one,” you reply. “So I’m guessing the bar isn’t that high.”\n\nHe chuckles."
       },
       {
         "type": "paragraph",
-        "text": "- “This is one of the best talks I’ve had in a while”"
+        "text": "Actually, you and Justin have had some deep conversations in the past, but it’s probably best not to tell him that.\n“We should probably give the batteries a break before the radio dies.”"
       },
       {
         "type": "paragraph",
-        "text": "- “Well it is the only talk you’ve had in a while, so I’m guessing the bar is not that high”"
-      },
-      {
-        "type": "paragraph",
-        "text": "Actually, you and Justin have had some deep conversations in the past, but it’s probably best not to tell him that."
-      },
-      {
-        "type": "paragraph",
-        "text": "- “We’ve talked for a while now. Maybe we should give the batteries some rest before the radio dies.”"
-      },
-      {
-        "type": "paragraph",
-        "text": "The mention of the radio turns Alex attention."
-      },
-      {
-        "type": "paragraph",
-        "text": "- “You know, I never asked you this earlier but...where did you find the radio?”"
+        "text": "At the mention of it, his tone shifts slightly. “Actually… where did you find that radio?”"
       }
     ],
     "choices": [
@@ -385,39 +309,23 @@
     "id": "8.2",
     "name": "no_a_lie",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
-        "text": "“I definitely have someone here. With me.”"
+        "text": "“I’m not alone. There’s someone here with me.”\n\nYou drop your voice a few octaves. “Yeah… big guy.”"
       },
       {
         "type": "paragraph",
-        "text": "You lower your voice a few octanes"
+        "text": "Silence."
       },
       {
         "type": "paragraph",
-        "text": "- “Yup, I am a big dude with here with her.”"
+        "text": "“…That was you,” he says. “You just lowered your voice.”\n\nHeat creeps up your neck, but you stick to it. Justin is right here, after all. He probably would’ve sounded like that."
       },
       {
         "type": "paragraph",
-        "text": "The radio is silent for a while."
-      },
-      {
-        "type": "paragraph",
-        "text": "- “wow, that was you, you just lowered your voice..”"
-      },
-      {
-        "type": "paragraph",
-        "text": "A little embarrassed you still stick to your answer. And to be totally fair Justin is right there with you. And he probably would have talked like that."
-      },
-      {
-        "type": "paragraph",
-        "text": "- “Look, I’m not some bad guy who’s out to get you. I lost my only friend, so I’ve been alone for a long time and I’m really glad to hear another human voice.”"
-      },
-      {
-        "type": "paragraph",
-        "text": "You’re not sure what to think. You’re scared and excited at the same time. It’s been forever since you last talked to someone."
+        "text": "“Look, I’m not trying to hurt you. I lost my only friend… I’ve been alone a long time. I’m just glad to hear another voice.”\n\nYou don’t know what to think. Fear and relief twist together, it’s been so long since you last spoke to anyone."
       }
     ],
     "choices": [
@@ -431,7 +339,7 @@
     "id": "8.2.1",
     "name": "no_a_lie_pt2",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
@@ -453,7 +361,7 @@
     "id": "8.2.2",
     "name": "no_a_lie_pt3",
     "type": "scene",
-    "bg": "intro",
+    "bg": "home",
     "content": [
       {
         "type": "paragraph",
@@ -711,7 +619,7 @@
     "id": "14",
     "name": "walk_along_the_main_road",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -733,7 +641,7 @@
     "id": "15",
     "name": "talk_about_the_past",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -771,7 +679,7 @@
     "id": "15.1",
     "name": "how_come_your_dad_was_interested",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -793,7 +701,7 @@
     "id": "15.2",
     "name": "you_can_read",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -827,7 +735,7 @@
     "id": "15.3",
     "name": "you_must_know_a_lot_about_it",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -853,7 +761,7 @@
     "id": "16",
     "name": "axels_dad",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -895,7 +803,7 @@
     "id": "16.1",
     "name": "fascinated_by_the_past",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -933,7 +841,7 @@
     "id": "16.2",
     "name": "read_about_it",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -971,7 +879,7 @@
     "id": "16.3",
     "name": "not_interested",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -1009,7 +917,7 @@
     "id": "17",
     "name": "Are you out yet?",
     "type": "scene",
-    "bg": "intro",
+    "bg": "leaving",
     "content": [
       {
         "type": "paragraph",
@@ -1051,7 +959,7 @@
     "id": "18",
     "name": "camp",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1077,7 +985,7 @@
     "id": "19",
     "name": "Camp2",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1111,7 +1019,7 @@
     "id": "20",
     "name": "Hike continues",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1137,7 +1045,7 @@
     "id": "20.1",
     "name": "West",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1159,7 +1067,7 @@
     "id": "20.2",
     "name": "east",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1181,7 +1089,7 @@
     "id": "20.3",
     "name": "north",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1207,7 +1115,7 @@
     "id": "21",
     "name": "going north",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1225,39 +1133,27 @@
     "id": "22",
     "name": "old camp",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
-        "text": "You just manage to catch your balance. You look down to see what it was that made you trip only to discover that it is a used fire pit with rocks surrounding a pile of ashes. You gasp when you realize and then become a bit worried. Is there another person here? You have never actually met another person since you were left on your own so you don’t know what to expect."
+        "text": "You stumble, but catch yourself just in time.\nLooking down, you freeze. A ring of stones. Cold ashes.\nA fire pit.\nYour chest tightens. Someone’s been here… maybe still is.\n\n“Axel,” you whisper. “Are you there?”"
       },
       {
         "type": "paragraph",
-        "text": "- “Axeel, psst. Are you there?”"
+        "text": "The radio crackles. “Yeah—why are you whispering?”\n\n“I just found a fire pit. Someone’s been here. What should I do? Should I check if they’re still around?”"
       },
       {
         "type": "paragraph",
-        "text": "The radio crackles to life."
+        "text": "“Did you see anything else? Where are you?”"
       },
       {
         "type": "paragraph",
-        "text": "- “Yes! And.. Why are you whispering?”"
+        "text": "“Almost through the valley.”"
       },
       {
         "type": "paragraph",
-        "text": "- “Because I just stepped on an old camp fire!? Someone has been here or are still here! What should I do? Should I look if someone is still here?”"
-      },
-      {
-        "type": "paragraph",
-        "text": "- “What? Did you see anything else? And where are you?”"
-      },
-      {
-        "type": "paragraph",
-        "text": "- “I am almost through the valley”"
-      },
-      {
-        "type": "paragraph",
-        "text": "- “Oh, I would check, just to be sure. What if the person is nice, or maybe there are some things you could use? You should look.”"
+        "text": "A pause. Then: “I’d check. Could be someone friendly… or something useful.”\n\nYou scan the area, heart pounding."
       }
     ],
     "choices": [
@@ -1275,7 +1171,7 @@
     "id": "22.1",
     "name": "look around",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1297,7 +1193,7 @@
     "id": "22.2",
     "name": "dont look around",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1315,7 +1211,7 @@
     "id": "23",
     "name": "the_request",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1365,7 +1261,7 @@
     "id": "24",
     "name": "the request continued",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1403,7 +1299,7 @@
     "id": "25",
     "name": "go or not",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1445,7 +1341,7 @@
     "id": "26",
     "name": "ill_go",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1479,7 +1375,7 @@
     "id": "27",
     "name": "new_destination_hideout",
     "type": "scene",
-    "bg": "intro",
+    "bg": "camp",
     "content": [
       {
         "type": "paragraph",
@@ -1513,7 +1409,7 @@
     "id": "28",
     "name": "entering_the_town",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1539,7 +1435,7 @@
     "id": "29",
     "name": "looking_around",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1565,7 +1461,7 @@
     "id": "30",
     "name": "see_stores",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1599,7 +1495,7 @@
     "id": "31",
     "name": "the_supermarket",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1625,7 +1521,7 @@
     "id": "32",
     "name": "the_electronic_store",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1651,7 +1547,7 @@
     "id": "33",
     "name": "straight_the_outdoor_store",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1677,7 +1573,7 @@
     "id": "34.1",
     "name": "enter_supermarket",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1695,7 +1591,7 @@
     "id": "34.1.2",
     "name": "looking_with_flashlight",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1745,7 +1641,7 @@
     "id": "34.1.3",
     "name": "dont_take_too_long",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1771,7 +1667,7 @@
     "id": "34.1.3.1",
     "name": "i_wont",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1793,7 +1689,7 @@
     "id": "34.1.3.2",
     "name": "dont_rush_me",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1815,7 +1711,7 @@
     "id": "34.1.4",
     "name": "how_did_you_meet",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1837,7 +1733,7 @@
     "id": "34.1.5",
     "name": "answer",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1859,7 +1755,7 @@
     "id": "34.1.6",
     "name": "sheila_memory",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1905,7 +1801,7 @@
     "id": "34.1.6.1",
     "name": "mother_figure",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1931,7 +1827,7 @@
     "id": "34.1.6.2",
     "name": "teacher_guardian",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1957,7 +1853,7 @@
     "id": "34.1.6.3",
     "name": "were_you_lovers",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -1991,7 +1887,7 @@
     "id": "34.1.7",
     "name": "what_were_parents_like",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2033,7 +1929,7 @@
     "id": "34.1.7.1",
     "name": "dad",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2075,7 +1971,7 @@
     "id": "34.1.7.2",
     "name": "mom",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2117,7 +2013,7 @@
     "id": "34.1.8",
     "name": "water",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2139,7 +2035,7 @@
     "id": "34.1.9",
     "name": "water_again",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -2189,7 +2085,7 @@
     "id": "34.1.10",
     "name": "bear_one",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -2223,7 +2119,7 @@
     "id": "34.1.11",
     "name": "bear_two",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -2269,7 +2165,7 @@
     "id": "34.1.12",
     "name": "bear_attack",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -2295,7 +2191,7 @@
     "id": "34.1.13",
     "name": "bear_leaves",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -2337,7 +2233,7 @@
     "id": "34.1.14",
     "name": "after_bear",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2379,7 +2275,7 @@
     "id": "34.2",
     "name": "enter_electronic_store",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2421,7 +2317,7 @@
     "id": "34.2.1",
     "name": "looking_around_electronics",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2443,7 +2339,7 @@
     "id": "34.2.2",
     "name": "disappointing_loot",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2477,7 +2373,7 @@
     "id": "34.2.3",
     "name": "blushing",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2527,7 +2423,7 @@
     "id": "34.2.4",
     "name": "deeper_conversation",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2557,7 +2453,7 @@
     "id": "34.2.5",
     "name": "awkward_shift",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2587,7 +2483,7 @@
     "id": "34.2.6",
     "name": "the_bear_electronics",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -2617,7 +2513,7 @@
     "id": "34.2.7",
     "name": "bear_chase",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -2651,7 +2547,7 @@
     "id": "34.2.8",
     "name": "hiding",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -2693,7 +2589,7 @@
     "id": "34.2.9",
     "name": "escape_electronics",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -2711,7 +2607,7 @@
     "id": "34.2.10",
     "name": "after_bear_electronics",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2745,7 +2641,7 @@
     "id": "34.3",
     "name": "enter_outdoor_store",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2767,7 +2663,7 @@
     "id": "34.3.1",
     "name": "flashlight",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2805,7 +2701,7 @@
     "id": "34.3.2",
     "name": "resupply",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2847,7 +2743,7 @@
     "id": "34.3.3.1",
     "name": "sorry_not_rushing",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2885,7 +2781,7 @@
     "id": "34.3.4",
     "name": "how_did_you_meet_outdoor",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2907,7 +2803,7 @@
     "id": "34.3.5",
     "name": "sheila_story_outdoor",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2929,7 +2825,7 @@
     "id": "34.3.6",
     "name": "axel_talks_about_her",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -2975,7 +2871,7 @@
     "id": "34.3.6.1",
     "name": "sheila_like_family",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3005,7 +2901,7 @@
     "id": "34.3.6.2",
     "name": "sheila_close_friend",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3027,7 +2923,7 @@
     "id": "34.3.6.3",
     "name": "sheila_not_romantic",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3053,7 +2949,7 @@
     "id": "34.3.7",
     "name": "axel_misses_his_father",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3079,7 +2975,7 @@
     "id": "34.3.8",
     "name": "talk_about_parents",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3109,7 +3005,7 @@
     "id": "34.3.8.1",
     "name": "dad_memory",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3131,7 +3027,7 @@
     "id": "34.3.8.1.1",
     "name": "dad_memory_followup",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3165,7 +3061,7 @@
     "id": "34.3.8.2",
     "name": "mom_memory",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3187,7 +3083,7 @@
     "id": "34.3.8.2.1",
     "name": "mom_memory_followup",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3221,7 +3117,7 @@
     "id": "34.3.9",
     "name": "store_hub",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3255,7 +3151,7 @@
     "id": "34.3.9.1",
     "name": "weapons_intro",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3277,7 +3173,7 @@
     "id": "34.3.9.1.1",
     "name": "weapons_search",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3295,7 +3191,7 @@
     "id": "34.3.9.2",
     "name": "utilities_search",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3329,7 +3225,7 @@
     "id": "34.3.10",
     "name": "find_water",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3351,7 +3247,7 @@
     "id": "34.3.11",
     "name": "radio_checkin_bear",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -3397,7 +3293,7 @@
     "id": "34.3.12",
     "name": "bear_encounter",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -3439,7 +3335,7 @@
     "id": "34.3.13",
     "name": "bear_charges",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -3469,7 +3365,7 @@
     "id": "34.3.14",
     "name": "bear_loses_interest",
     "type": "scene",
-    "bg": "intro",
+    "bg": "bear",
     "content": [
       {
         "type": "paragraph",
@@ -3511,7 +3407,7 @@
     "id": "34.3.15",
     "name": "after_bear_escape",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3557,7 +3453,7 @@
     "id": "35",
     "name": "done_looting",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3603,7 +3499,7 @@
     "id": "36",
     "name": "exit_the_town",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3657,7 +3553,7 @@
     "id": "37",
     "name": "search_for_hideout",
     "type": "scene",
-    "bg": "intro",
+    "bg": "town",
     "content": [
       {
         "type": "paragraph",
@@ -3675,7 +3571,7 @@
     "id": "38",
     "name": "find_cabin",
     "type": "scene",
-    "bg": "intro",
+    "bg": "cabin",
     "content": [
       {
         "type": "paragraph",
