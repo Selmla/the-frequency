@@ -257,3 +257,9 @@ button {
   font-size: 2rem;
   background: #0f1020;
 }
+
+.route-message p {
+  margin: 0;
+  color: #4221b1;
+  font-size: large;
+}
